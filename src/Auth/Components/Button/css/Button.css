@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.button {
+  padding: 11px 0;
+  background-color: #4E77C3;
+  border-radius: 13px;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: 24px;
+  margin-top: 16px;
+  fill: white;
+}
+.button:hover {
+  padding-left: 10px;
+  transition: padding-left 0.3s;
+}
+.button:not(:hover) {
+  transition: padding-left 0.3s;
+}
+@media (max-width: 768px) {
+  .button {
+    font-size: 20px;
+    padding: 10px 0;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .button {
+    font-size: 18px;
+    padding: 8px 0;
+    border-radius: 10px;
+  }
+}/*# sourceMappingURL=button.css.map */

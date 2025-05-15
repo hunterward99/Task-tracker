@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.form__input {
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.38);
+  outline: none;
+  border: 1px solid rgba(140, 140, 140, 0.2);
+  font-family: Inter, sans-serif;
+  padding: 16px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+.form__input:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(140, 140, 140, 0.2);
+  transition: all 0.3s;
+}
+.form__input:not(:hover) {
+  transition: all 0.3s;
+}
+.form__input:focus {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(140, 140, 140);
+  transition: all 0.3s;
+}
+.form__input:not(:focus) {
+  transition: all 0.3s;
+}
+.form__input:not(:-moz-placeholder-shown) {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.form__input:not(:placeholder-shown) {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  transition: all 0.3s;
+}
+@media (max-width: 768px) {
+  .form__input {
+    font-size: 13px;
+    padding: 14px 16px;
+    border-radius: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .form__input {
+    font-size: 12px;
+    padding: 12px 14px;
+    border-radius: 6px;
+  }
+}/*# sourceMappingURL=input.css.map */

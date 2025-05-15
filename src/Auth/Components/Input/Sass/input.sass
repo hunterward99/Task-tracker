@@ -1,0 +1,43 @@
+@import ../../Variables/Sass/variables.sass
+    
+.form__input
+   padding-left: 20px
+   background-color: rgba(255,255,255, 3%) 
+   color: rgba(255,255,255, 38%) 
+   outline: none
+   border: 1px solid rgba(140,140,140,20%)
+   font-family: $main-font
+   padding: 16px 20px
+   font-size: 14px
+   border-radius: 10px
+   margin: 8px 0
+   &:hover
+    color: rgba(255, 255, 255, 100%)
+    background: rgba(255, 255, 255, 10%)
+    border: 1px solid rgba(140, 140, 140, 20%)
+    transition: all .3s
+   &:not(:hover)
+    transition: all .3s
+   &:focus
+    color: rgba(255, 255, 255, 100%)
+    background: rgba(255, 255, 255, 10%)
+    border: 1px solid rgba(140, 140, 140, 100%)
+    transition: all .3s
+   &:not(:focus)
+    transition: all .3s
+   &:not(:placeholder-shown)
+    background: rgba(255, 255, 255, 5%)
+    color: $white-color
+    transition: all .3s
+
+   
+   @media (max-width: 768px)
+      font-size: 13px
+      padding: 14px 16px
+      border-radius: 8px
+
+
+   @media (max-width: 480px)
+      font-size: 12px
+      padding: 12px 14px
+      border-radius: 6px

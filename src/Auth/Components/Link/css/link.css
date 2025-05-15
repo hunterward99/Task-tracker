@@ -1,0 +1,27 @@
+.link, .link:visited {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.31);
+  margin-top: 16px;
+  font-size: 14px;
+}
+.link:hover, .link:visited:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
+}
+.link:not(.link:hover, .link:visited:hover), .link:visited:not(.link:hover, .link:visited:hover) {
+  transition: color 0.3s;
+}
+@media (max-width: 768px) {
+  .link, .link:visited {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .link, .link:visited {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=link.css.map */

@@ -1,0 +1,27 @@
+@import ./../../Variables/Sass/variables
+
+.button
+    padding: 11px 0
+    background-color: $main-color
+    border-radius: 13px
+    outline: none
+    color: white
+    border: none
+    font-size: 24px
+    margin-top: 16px
+    fill: white
+    &:hover
+        padding-left: 10px
+        transition: padding-left .3s
+    &:not(:hover)
+        transition: padding-left .3s
+    // Планшеты и мобилки
+    @media (max-width: 768px)
+        font-size: 20px
+        padding: 10px 0
+        border-radius: 12px
+
+    @media (max-width: 480px)
+        font-size: 18px
+        padding: 8px 0
+        border-radius: 10px
